@@ -4,11 +4,12 @@ const name = "Sadman";
 // }
 const display = () => "Ahmed";
 
-function Hello() {
+function Hello(props) {
   return (
     <div>
       <h1>
-        Hello from {name} {display()}
+        {/* Hello from {name} {display()} */}
+        Hello from {props.first_name} {props.last_name} 
       </h1>
     </div>
   );
