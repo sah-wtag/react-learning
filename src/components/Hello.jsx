@@ -1,8 +1,8 @@
-function Hello({ first_name, last_name }) {
+function Hello({ person }) {
   return (
     <div>
       <h1>
-        Hello from {first_name} {last_name}
+        Hello from {person.first_name} {person.last_name} {person.seatNumbers}
       </h1>
     </div>
   );
