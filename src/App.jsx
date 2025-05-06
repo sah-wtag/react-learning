@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <Hello first_name='Sadman' last_name='Ahmed'/>
+        <Hello first_name="Sadman" last_name="Ahmed" />
       </div>
     </>
   );

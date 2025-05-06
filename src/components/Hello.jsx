@@ -1,15 +1,8 @@
-const name = "Sadman";
-// function display() {
-//   return "Ahmed";
-// }
-const display = () => "Ahmed";
-
-function Hello(props) {
+function Hello({ first_name, last_name }) {
   return (
     <div>
       <h1>
-        {/* Hello from {name} {display()} */}
-        Hello from {props.first_name} {props.last_name} 
+        Hello from {first_name} {last_name}
       </h1>
     </div>
   );
