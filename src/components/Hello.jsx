@@ -1,6 +1,11 @@
-function Hello(){
-    return <h1>Hello from the Hello JSX</h1>
+function Hello({ person }) {
+  return (
+    <div>
+      <h1>
+        Hello from {person.first_name} {person.last_name} {person.seatNumbers}
+      </h1>
+    </div>
+  );
 }
 
 export default Hello;
-
